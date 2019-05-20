@@ -5,7 +5,7 @@ LOG_FILE="${1}"
 
 if [[ ! -e "${LOG_FILE}" ]]
 then
-  echo "Cannot open log file: ${LOG_FILE}" >&2
+  echo "No es pot obrir el log file: ${LOG_FILE}" >&2
   exit 1
 fi
 
